@@ -1,0 +1,19 @@
+.history-item{
+    box-shadow: 2px 2px 5px grey;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.history-item:hover{
+    background-color: gainsboro;
+}
+.history-item p:nth-child(1){
+    overflow-wrap: break-word;
+    color: blue;
+}
+.history-item p:nth-child(2){
+    text-align: right ;
+    color: green;
+}

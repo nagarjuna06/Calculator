@@ -1,0 +1,30 @@
+.digit-key,.operator-key{
+    height: 70px;
+    width: 70px;
+    font-size: 30px;
+    padding: 10px 20px;
+    border: none;
+    margin: 1px 2px;
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 30%;
+    margin: 5px;
+    cursor: pointer;
+}
+.operator-key{
+    background-color: blueviolet;
+    color: white;
+
+}
+.digit-key:hover{
+    background-color: gainsboro;
+}
+.digit-key:active{
+    font-size: 40px;
+}
+.operator-key:active{
+    background-color: green;
+}
+.key-pad div{
+    display: flex;
+    justify-content: space-between;
+}
